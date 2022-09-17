@@ -1,19 +1,16 @@
 {
-    "Item" : [
-        {
-            "id" : 1,
-            "el" : "wake up",
-            "checked" : false
-        },
-        {
-            "id" : 2,
-            "el" : "eat",
-            "checked" : false
-        },
-        {
-            "id" : 3,
-            "el" : "survive",
-            "checked" : false
-        }
-    ]
+  "Item": {
+    "id": {
+      "int": [1, 2, 3],
+      "belongsTo": "Item"
+    },
+    "el": {
+      "string": ["Wake up", "Eat", "Survive"],
+      "belongsTo": "Item"
+    },
+    "checked": {
+      "boolean": [false, false, false],
+      "belongsTo": "Item"
+    }
+  }
 }
