@@ -1,0 +1,19 @@
+{
+    "items" : [
+        {
+            "id" : 1,
+            "el" : "wake up",
+            "checked" : false
+        },
+        {
+            "id" : 2,
+            "el" : "eat",
+            "checked" : false
+        },
+        {
+            "id" : 3,
+            "el" : "survive",
+            "checked" : false
+        }
+    ]
+}
