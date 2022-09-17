@@ -1,10 +1,13 @@
 {
   "Item": {
     "id": {
-      "int": [1, 2, 3]
+      "int": {
+        "min" : 1,
+        "max" : 3
+      }
     },
     "el": {
-      "string": ["Wake up", "Eat", "Survive"]
+      "string": {}
     },
     "checked": {
       "boolean": {}
