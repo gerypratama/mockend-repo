@@ -1,16 +1,13 @@
 {
   "Item": {
     "id": {
-      "int": [1, 2, 3],
-      "belongsTo": "Item"
+      "int": [1, 2, 3]
     },
     "el": {
-      "string": ["Wake up", "Eat", "Survive"],
-      "belongsTo": "Item"
+      "string": ["Wake up", "Eat", "Survive"]
     },
     "checked": {
-      "boolean": [false, false, false],
-      "belongsTo": "Item"
+      "boolean": false
     }
   }
 }
