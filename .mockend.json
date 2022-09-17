@@ -7,7 +7,7 @@
       "string": ["Wake up", "Eat", "Survive"]
     },
     "checked": {
-      "boolean": false
+      "boolean": {}
     }
   }
 }
